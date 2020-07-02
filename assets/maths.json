@@ -1,0 +1,47 @@
+[
+  {
+    "label": "What is 4 * 4?",
+    "choices": [
+      {"value": "25", "correct": false},
+      {"value": "49", "correct": false},
+      {"value": "64", "correct": false},
+      {"value": "16", "correct": true}
+    ]
+  },
+  {
+    "label": "What is 5*5?",
+    "choices": [
+      {"value": "25", "correct": true},
+      {"value": "36", "correct": false},
+      {"value": "121", "correct": false},
+      {"value": "100", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 9 * 9?",
+    "choices": [
+      {"value": "121", "correct": false},
+      {"value": "81", "correct": true},
+      {"value": "225", "correct": false},
+      {"value": "256", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 17 * 17?",
+    "choices": [
+      {"value": "256", "correct": false},
+      {"value": "289", "correct": true},
+      {"value": "361", "correct": false},
+      {"value": "400", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 15 * 15?",
+    "choices": [
+      {"value": "625", "correct": false},
+      {"value": "225", "correct": true},
+      {"value": "Bonjour", "correct": false},
+      {"value": "pi", "correct": false}
+    ]
+  }
+]
