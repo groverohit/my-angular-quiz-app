@@ -1,0 +1,35 @@
+// .quiz {
+//   background-color: #eee;
+//   color: #e00;
+//   text-align: center;
+// }
+
+// h1 {
+//   font-size: 32px;
+//   font-family: "Comic Sans MS", cursive, sans-serif;
+// }
+
+mat-card {
+  margin: auto;
+  width: 40rem;
+  background-color: #e00;
+  color: #eee;
+}
+
+mat-card-title {
+  background-color: #e00;
+}
+
+mat-card-subtitle {
+  background-color: #e00;
+  color: #eee;
+}
+
+mat-card-content {
+  background-color: #e00;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}

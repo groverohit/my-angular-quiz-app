@@ -1,0 +1,31 @@
+<h1>Quizzes</h1>
+<div class="welcome" *ngFor="let quiz of quizzes">
+  <mat-card>
+    <mat-card-title>{{ quiz.label }}</mat-card-title>
+    <mat-card-content>{{ quiz.description }}</mat-card-content>
+    <mat-card-actions>
+      <button mat-button [routerLink]="['/', quiz.fileName]">
+        {{ quiz.label }}
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<footer class="page-footer">
+  <footer class="page-footer">
+    <div>
+      <h2>Find me on</h2>
+      <!-- Github logo -->
+      <a href="https://github.com/groverohit">
+        <img src="../../assets/img/github_icon.svg" alt="github" />
+      </a>
+      <!-- Twitter logo -->
+      <a href="https://twitter.com/groverrohit">
+        <img src="../../assets/img/twitter_icon.svg" alt="twitter" />
+      </a>
+      <!-- LinkedIn logo -->
+      <a href="https://linkedin.com/in/groverohit">
+        <img src="../../assets/img/linkedin_icon.svg" alt="linkedin" />
+      </a>
+    </div>
+  </footer>
+</footer>

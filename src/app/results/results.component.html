@@ -1,0 +1,16 @@
+<div class="results">
+  <mat-card>
+    <mat-card-title
+      ><h1><u>Results</u></h1></mat-card-title
+    >
+    <br />
+    <div class="question" *ngFor="let q of answers.questions; let i = index">
+      {{ q.label }}<br /><br />
+
+      <div class="answer" [ngClass]="{ correct: answers.values[i].correct }">
+        {{ answers.values[i].value }}<br /><br />
+      </div>
+    </div>
+    <button routerLink="/">Home</button>
+  </mat-card>
+</div>
