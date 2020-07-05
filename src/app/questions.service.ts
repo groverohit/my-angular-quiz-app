@@ -25,7 +25,7 @@ export class QuestionsService {
   }
 
   public getQuestions(filename: String) {
-    return this.http.get(`assets/${filename}`).pipe(
+    return this.http.get(`./assets/${filename}`).pipe(
       map((result: any[]) => {
         return result.map((r) => new Question(r.label, r.choices));
       })
